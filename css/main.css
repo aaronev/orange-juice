@@ -1,6 +1,6 @@
 /*I will start by using css grid and create my layout before I add all the contents*/
 
-.grid {
+/*.grid {
   display: grid;
   grid-template-columns: 45% 45%;
 }
@@ -8,4 +8,26 @@
 .grid section:nth-child(even) {
   background-color: gray;
   border: solid;
+}*/
+
+nav {
+  display: grid;
+  grid-column: 1/5;
+  grid-template-columns: repeat(5, 1fr);
+  grid-auto-rows: auto;
+  border: solid;
 }
+
+footer {
+  border: solid;
+}
+
+#search {
+  border: solid;
+}
+
+#orange {
+  border: solid;
+}
+
+
