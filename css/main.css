@@ -10,8 +10,27 @@ nav img {
 }
 
 nav li {
+  position: relative;
+  top: 15px;
   display: inline;
-  text-decoration-style: none;
+  padding: 2%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li a:visited {
+  color: white;
+}
+
+hr {
+  margin: 0;
+  background-color: #D1854B;
+  height: 4px;
 }
 
 footer {
