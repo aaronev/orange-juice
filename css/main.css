@@ -71,10 +71,9 @@ footer {
   margin-top: 5%;
 }
 
-#orange .container .right{
-  position: relative;
-  top: 100px;
-
+#orange p {
+  font-size: 50px;
+  text-align: left;
 }
 
 /*==========================================================ADDING MEDIA QUERIES*/
