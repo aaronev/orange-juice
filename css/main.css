@@ -76,6 +76,20 @@ footer {
   text-align: left;
 }
 
+#orange button {
+  font-size: 30px;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+#orange .buttons .left {
+  background-color: #EC8232;
+}
+
+#orange .buttons .right {
+  background-color: #8DCAC7;
+}
 /*==========================================================ADDING MEDIA QUERIES*/
 
 @media(max-width: 964px) {
