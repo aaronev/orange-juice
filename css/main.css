@@ -36,9 +36,10 @@ hr {
 footer {
   background-color: #8DCAC7;
   height: 50px;
+
 }
 
-/*Search Bar Section*/
+/*===========================================Search Bar Section*/
 #search {
   width: 100%;
   height: 60px;
@@ -54,27 +55,45 @@ footer {
   background-color: #F0F0F0;
 }
 
-/*About Oranage Section*/
+/*============================================About Oranage Section*/
 #orange {
-  position: relative;
   text-align: center;
+  margin: auto;
   background-color: #f9f9f9;
   border: solid;
   height: 500px;
 }
 
+#orange > div {
+  float: left;
+  width: 50%;
+  margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
 #orange img {
+  position: relative;
+  top: 50px;
+}
+
+/*#orange img {
   position: relative;
   top: 100px;
   right: 300px;
   border: solid;
   text-align: center;
-}
+}*/
 
 #orange p {
   position: relative;
-  border: solid;
+  top: 100px;
+}
 
+#orange .buttons {
+  position: relative;
+  top: 100px;
 }
 
 /*==========================================================ADDING MEDIA QUERIES*/
