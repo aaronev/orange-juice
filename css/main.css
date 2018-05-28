@@ -39,6 +39,14 @@ footer {
 
 }
 
+.orange {
+  color: orange;
+}
+
+.blue {
+  color: #8DCAC7;
+}
+
 /*===========================================Search Bar Section*/
 #search {
   width: 100%;
