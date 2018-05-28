@@ -77,40 +77,6 @@ footer {
 
 }
 
-/*#orange > div {
-  float: left;
-  width: 50%;
-  margin: 0 auto;
-  width: 500px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-#orange img {
-  position: relative;
-  top: 50px;
-}
-
-#orange img {
-  position: relative;
-  top: 100px;
-  right: 300px;
-  border: solid;
-  text-align: center;
-}
-
-#orange p {
-  position: relative;
-  top: 100px;
-}
-
-#orange .buttons {
-  position: relative;
-  top: 100px;
-}*/
-
-
-
 /*==========================================================ADDING MEDIA QUERIES*/
 
 @media(max-width: 964px) {
