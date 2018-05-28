@@ -101,7 +101,16 @@ footer {
 /*==========================================================ADDING MEDIA QUERIES*/
 
 @media(max-width: 964px) {
-  nav {
-    background-color: white;
+  nav ul{
+    display: none;
   }
+
+  nav img {
+    border: solid;
+    float: center;
+    text-align: center;
+    margin-left: auto;
+     margin-right: auto;
+  }
+
 }
