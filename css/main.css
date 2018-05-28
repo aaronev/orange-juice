@@ -60,11 +60,24 @@ footer {
   text-align: center;
   margin: auto;
   background-color: #f9f9f9;
-  border: solid;
   height: 500px;
 }
 
-#orange > div {
+
+#orange .container {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#orange .container .right{
+  position: relative;
+  top: 100px;
+
+}
+
+/*#orange > div {
   float: left;
   width: 50%;
   margin: 0 auto;
@@ -78,13 +91,13 @@ footer {
   top: 50px;
 }
 
-/*#orange img {
+#orange img {
   position: relative;
   top: 100px;
   right: 300px;
   border: solid;
   text-align: center;
-}*/
+}
 
 #orange p {
   position: relative;
@@ -94,7 +107,9 @@ footer {
 #orange .buttons {
   position: relative;
   top: 100px;
-}
+}*/
+
+
 
 /*==========================================================ADDING MEDIA QUERIES*/
 
