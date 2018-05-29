@@ -98,6 +98,7 @@ footer {
 #orange .buttons .right {
   background-color: #8DCAC7;
 }
+
 /*==========================================================ADDING MEDIA QUERIES*/
 
 @media(max-width: 964px) {
