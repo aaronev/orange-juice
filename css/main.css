@@ -140,9 +140,9 @@ footer {
   }
 
   nav img {
-    display: block;
+    float: none;
     text-align: center;
-    margin: 0 30%;
+    margin: 0 auto;
   }
 
 }
