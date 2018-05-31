@@ -36,7 +36,7 @@ hr {
 footer {
   background-color: #8DCAC7;
   height: 100px;
-
+  margin-top: 100px;
 }
 
 .orange {
@@ -102,6 +102,7 @@ footer {
 /*==========================================================ADDING MEDIA QUERIES*/
 
 @media(max-width: 1100px) {
+
   .buttons {
     position: relative;
     bottom: 20px;
@@ -119,6 +120,7 @@ footer {
   #orange {
     border: solid;
     display: block;
+    overflow: hidden;
   }
 
   #orange img {
